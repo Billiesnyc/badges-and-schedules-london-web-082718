@@ -10,3 +10,7 @@ def assign_rooms(name_list)
     puts "Hello, #{name}! You'll be assigned to room #{room + 1}!"
   end
 end
+
+def printer
+  batch_badge_creator
+  assign_rooms
