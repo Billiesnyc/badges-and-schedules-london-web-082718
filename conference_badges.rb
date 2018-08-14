@@ -24,6 +24,6 @@ def printer(name_list)
     print statement.inspect
   end
   assign_rooms.all.each do |rooms|
-    puts rooms.inspect
+    print rooms.inspect
   end
 end
