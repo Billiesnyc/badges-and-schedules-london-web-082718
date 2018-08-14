@@ -21,9 +21,9 @@ end
 
 def printer
   batch_badge_creator.each do |statement|
-    puts statement
+    puts statement.inspect
   end
   assign_rooms.each do |rooms|
-    puts rooms
+    puts rooms.inspect
   end
 end
