@@ -20,6 +20,6 @@ def assign_rooms(name_list)
 end
 
 def printer(name_list)
-  return batch_badge_creator(name_list)
-  return assign_rooms(name_list)
+  batch_badge_creator(name_list)
+  assign_rooms(name_list)
 end
