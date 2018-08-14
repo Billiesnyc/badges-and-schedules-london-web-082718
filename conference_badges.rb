@@ -19,7 +19,7 @@ def assign_rooms(name_list)
   assigned_rooms_list
 end
 
-def printer
+def printer(name_list)
   batch_badge_creator.all.each do |statement|
     puts statement.inspect
   end
