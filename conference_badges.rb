@@ -24,6 +24,6 @@ def printer
     puts "#{statement}"
   end
   assign_rooms.each do |rooms|
-    puts "#{rooms}""
+    puts "#{rooms}"
   end
 end
