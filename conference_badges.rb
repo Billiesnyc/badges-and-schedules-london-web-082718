@@ -20,10 +20,10 @@ def assign_rooms(name_list)
 end
 
 def printer(name_list)
-  batch_badge_creator(name_list).all.each do |statement|
+  batch_badge_creator(name_list).each do |statement|
     puts statement.inspect
   end
-  assign_rooms(name_list).all.each do |rooms|
+  assign_rooms(name_list).each do |rooms|
     puts rooms.inspect
   end
 end
